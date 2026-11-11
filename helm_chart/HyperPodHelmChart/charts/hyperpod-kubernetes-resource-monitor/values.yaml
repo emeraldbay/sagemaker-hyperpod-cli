@@ -44,7 +44,7 @@ image:
   pullPolicy: IfNotPresent
   # Image tag published by the HyperpodImageBuilder pipeline (<agent version>_<image build version>).
   # Pinned on purpose: each agent release updates it here. Set it to "" to use the chart appVersion.
-  tag: "1.0.498.0_1.0.325.0"
+  tag: "1.0.508.0_1.0.327.0"
 
 serviceAccount:
   name: "hyperpod-kubernetes-resource-monitoring-agent"
